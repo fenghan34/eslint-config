@@ -1,0 +1,32 @@
+{
+  "name": "@fenghan/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier configuration for better.",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "homepage": "https://github.com/fenghan34/configurations/tree/main/packages/prettier-config",
+  "bugs": {
+    "url": "https://github.com/fenghan34/configurations/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenghan34/configurations.git"
+  },
+  "license": "MIT",
+  "author": "Feng Han <fenghan770@gmail.com>",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
