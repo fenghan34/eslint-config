@@ -12,5 +12,12 @@ module.exports = {
         project: 'tsconfig.json',
       },
     },
+    {
+      files: ['*.tsx'],
+      extends: '@fenghan/eslint-config-react',
+      parserOptions: {
+        project: 'tsconfig.json',
+      },
+    },
   ],
 }

@@ -1,4 +1,6 @@
 {
-  "compilerOptions": {},
-  "include": ["tests/**/*.ts"]
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "include": ["tests/**/*.ts", "tests/**/*.tsx"]
 }
