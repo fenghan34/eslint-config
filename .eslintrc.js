@@ -5,5 +5,12 @@ module.exports = {
       files: ['*.js'],
       extends: '@fenghan',
     },
+    {
+      files: ['*.ts'],
+      extends: '@fenghan/eslint-config-ts',
+      parserOptions: {
+        project: 'tsconfig.json',
+      },
+    },
   ],
 }

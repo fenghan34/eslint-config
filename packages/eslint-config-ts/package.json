@@ -7,7 +7,7 @@
     "config",
     "typescript"
   ],
-  "homepage": "https://github.com/fenghan34/configurations#readme",
+  "homepage": "https://github.com/fenghan34/configurations/tree/main/packages/eslint-config-ts",
   "bugs": {
     "url": "https://github.com/fenghan34/configurations/issues"
   },
@@ -25,14 +25,16 @@
     "lib"
   ],
   "dependencies": {
+    "@fenghan/eslint-config": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3",
-    "eslint-config-prettier": "^8.3.0"
+    "@typescript-eslint/parser": "^4.29.3"
   },
   "peerDependencies": {
-    "eslint": "^7.2.0"
+    "eslint": "^7.2.0",
+    "typescript": "^4.3.5"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "a6deb50672f48b0e55ecf872ebe50c3100bed304"
 }
