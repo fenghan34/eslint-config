@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@fenghan/eslint-config-ts?style=flat-square)](https://www.npmjs.com/package/@fenghan/eslint-config-ts)
 
-Eslint configuration for my typescript projects.
+ESlint configuration for my typescript projects.
 
 ## Installation
 

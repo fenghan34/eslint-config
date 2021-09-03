@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@fenghan/eslint-config?style=flat-square)](https://www.npmjs.com/package/@fenghan/eslint-config)
 
-Eslint configuration for my javascript projects.
+ESlint configuration for my javascript projects.
 
 ## Installation
 
