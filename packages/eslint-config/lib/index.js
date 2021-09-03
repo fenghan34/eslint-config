@@ -1,6 +1,5 @@
 const dependencies = require('./get-dependencies')()
 
-console.log(dependencies)
 const hasPrettier = dependencies.includes('prettier')
 
 /**
