@@ -6,15 +6,8 @@ module.exports = {
       extends: '@fenghan',
     },
     {
-      files: ['*.ts'],
-      extends: '@fenghan/eslint-config-ts',
-      parserOptions: {
-        project: 'tsconfig.json',
-      },
-    },
-    {
-      files: ['*.tsx'],
-      extends: '@fenghan/eslint-config-react',
+      files: ['*.ts', '*.tsx', '*.vue'],
+      extends: ['@fenghan/eslint-config-react', '@fenghan/eslint-config-vue'],
       parserOptions: {
         project: 'tsconfig.json',
       },

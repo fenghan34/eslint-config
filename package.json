@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint packages --fix",
     "format": "prettier --write . --ignore-unknown",
-    "test": "eslint --ext .js?{x},.ts?{x},.vue tests/*",
+    "test": "eslint --ext .js,.jsx,.ts,.tsx,.vue tests",
     "prepare": "husky install"
   },
   "commitlint": {

@@ -1,0 +1,38 @@
+{
+  "name": "@fenghan/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "ESlint configuration for Vue project.",
+  "keywords": [
+    "eslint",
+    "vue",
+    "config"
+  ],
+  "homepage": "https://github.com/fenghan34/configurations/tree/main/packages/eslint-config-vue",
+  "bugs": {
+    "url": "https://github.com/fenghan34/configurations/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenghan34/configurations.git"
+  },
+  "license": "MIT",
+  "author": "fenghan <fenghan770@gmail.com>",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@fenghan/eslint-config-ts": "^1.0.0",
+    "eslint-plugin-vue": "^7.17.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.2.0",
+    "typescript": "^4.3.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
