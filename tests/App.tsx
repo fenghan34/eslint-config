@@ -4,7 +4,7 @@ interface Props {
   count: string
 }
 
-export const Test = ({ count }: Props) => {
+export const App = ({ count }: Props) => {
   const [state, setState] = useState<string>(count)
 
   useEffect(() => {
