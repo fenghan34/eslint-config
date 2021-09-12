@@ -9,6 +9,7 @@ Monorepo for all the tool configuration which helps me code better.
 | Package                                                                                                            | Description                                                             |
 | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
 | [@fenghan/prettier-config](https://github.com/fenghan34/configurations/tree/main/packages/prettier-config)         | [Prettier](https://prettier.io/) configuration.                         |
+| [@fenghan/stylelint-config](https://github.com/fenghan34/configurations/tree/main/packages/stylelint-config)       | [Stylelint](https://stylelint.io/) configuration.                       |
 | [@fenghan/eslint-config](https://github.com/fenghan34/configurations/tree/main/packages/eslint-config)             | [ESlint](https://eslint.org/) configuration for JavaScript.             |
 | [@fenghan/eslint-config-ts](https://github.com/fenghan34/configurations/tree/main/packages/eslint-config-ts)       | ESlint configuration for [TypeScript](https://www.typescriptlang.org/). |
 | [@fenghan/eslint-config-react](https://github.com/fenghan34/configurations/tree/main/packages/eslint-config-react) | ESlint configuration for [React](https://reactjs.org/).                 |

@@ -1,0 +1,38 @@
+{
+  "name": "@fenghan/stylelint-config",
+  "version": "1.0.0",
+  "description": "Stylelint config for styles.",
+  "keywords": [
+    "stylelint",
+    "config"
+  ],
+  "homepage": "https://github.com/fenghan34/configurations/tree/main/packages/stylelint-config",
+  "bugs": {
+    "url": "https://github.com/fenghan34/configurations/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenghan34/configurations.git"
+  },
+  "license": "MIT",
+  "author": "fenghan <fenghan770@gmail.com>",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.20.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
