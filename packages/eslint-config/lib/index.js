@@ -25,6 +25,8 @@ module.exports = {
     'no-plusplus': 'off',
     'no-bitwise': 'off',
     'max-classes-per-file': 'off',
+    'class-methods-use-this': 'off',
+    'no-param-reassign': 'off',
     'no-unused-vars': [
       'error',
       {
@@ -32,12 +34,6 @@ module.exports = {
         args: 'after-used',
         ignoreRestSiblings: true,
         caughtErrors: 'none',
-      },
-    ],
-    'no-param-reassign': [
-      'error',
-      {
-        props: false,
       },
     ],
     'no-restricted-syntax': [
