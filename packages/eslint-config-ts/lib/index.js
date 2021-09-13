@@ -40,6 +40,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/v4.31.0/packages/eslint-plugin/docs/rules/no-this-alias.md
+    '@typescript-eslint/no-this-alias': 'off',
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-var-requires.md
     '@typescript-eslint/no-var-requires': 'off',
 
