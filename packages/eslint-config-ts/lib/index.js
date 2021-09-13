@@ -231,8 +231,8 @@ module.exports = {
     '@typescript-eslint/no-unused-expressions': [
       'error',
       {
-        allowShortCircuit: false,
-        allowTernary: false,
+        allowShortCircuit: true,
+        allowTernary: true,
         allowTaggedTemplates: false,
       },
     ],
