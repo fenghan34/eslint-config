@@ -1,6 +1,6 @@
 {
   "name": "@fenghan/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESlint config for JavaScript.",
   "keywords": [
     "eslint",
