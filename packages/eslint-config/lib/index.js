@@ -22,6 +22,9 @@ module.exports = {
     'no-shadow': 'off',
     'no-undef': 'off',
     'no-console': 'off',
+    'no-plusplus': 'off',
+    'no-bitwise': 'off',
+    'max-classes-per-file': 'off',
     'no-unused-vars': [
       'error',
       {
