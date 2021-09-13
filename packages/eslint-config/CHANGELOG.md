@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/fenghan34/configurations/compare/v1.0.3...v1.0.4) (2021-09-13)
+
+### Features
+
+- **eslint-config:** add no-unused-expressions rule ([a8352a5](https://github.com/fenghan34/configurations/commit/a8352a50843acd37d9df8a92b23f9835455d5dbd))
+
 ## [1.0.3](https://github.com/fenghan34/configurations/compare/v1.0.2...v1.0.3) (2021-09-13)
 
 ### Bug Fixes
