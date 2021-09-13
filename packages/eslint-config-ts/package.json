@@ -1,6 +1,6 @@
 {
   "name": "@fenghan/eslint-config-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESlint configurations for TypeScript.",
   "keywords": [
     "eslint",
@@ -25,7 +25,7 @@
     "lib"
   ],
   "dependencies": {
-    "@fenghan/eslint-config": "1.0.2",
+    "@fenghan/eslint-config": "1.0.3",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3"
   },

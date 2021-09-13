@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/fenghan34/configurations/compare/v1.0.2...v1.0.3) (2021-09-13)
+
+### Bug Fixes
+
+- **eslint-config:** turn off indent rule to elimilate prettier conflict ([676bde8](https://github.com/fenghan34/configurations/commit/676bde8f0bccb30e651eb8b318739660d859da86))
+- **eslint-config-ts:** turn off indent rule to elimilate prettier conflict ([eef4bf5](https://github.com/fenghan34/configurations/commit/eef4bf54de7dbaf32d7e83ed99c802ab215869fa))
+
+### Features
+
+- **eslint-config:** turn off no-lonely-if ([ddc3e05](https://github.com/fenghan34/configurations/commit/ddc3e0525c20c1cd6be098903cc61fab73165b56))
+
 ## [1.0.2](https://github.com/fenghan34/configurations/compare/v1.0.1...v1.0.2) (2021-09-13)
 
 ### Features

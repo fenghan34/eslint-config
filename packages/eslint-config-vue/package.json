@@ -1,6 +1,6 @@
 {
   "name": "@fenghan/eslint-config-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESlint configuration for Vue project.",
   "keywords": [
     "eslint",
@@ -25,7 +25,7 @@
     "lib"
   ],
   "dependencies": {
-    "@fenghan/eslint-config-ts": "1.0.2",
+    "@fenghan/eslint-config-ts": "1.0.3",
     "eslint-plugin-vue": "^7.17.0"
   },
   "peerDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@fenghan/eslint-config-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESlint configuration for React project.",
   "keywords": [
     "eslint",
@@ -26,7 +26,7 @@
     "lib"
   ],
   "dependencies": {
-    "@fenghan/eslint-config-ts": "1.0.2",
+    "@fenghan/eslint-config-ts": "1.0.3",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-jest-dom": "^3.9.0",
