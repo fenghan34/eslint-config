@@ -28,6 +28,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'indent': 'off',
     'no-param-reassign': 'off',
+    'no-lonely-if': 'off',
     'no-unused-vars': [
       'error',
       {
