@@ -29,6 +29,14 @@ module.exports = {
     'indent': 'off',
     'no-param-reassign': 'off',
     'no-lonely-if': 'off',
+    'no-unused-expressions': [
+      'error',
+      {
+        allowShortCircuit: true,
+        allowTernary: true,
+        allowTaggedTemplates: false,
+      },
+    ],
     'no-unused-vars': [
       'error',
       {
