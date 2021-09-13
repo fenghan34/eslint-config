@@ -26,6 +26,7 @@ module.exports = {
     'no-bitwise': 'off',
     'max-classes-per-file': 'off',
     'class-methods-use-this': 'off',
+    'indent': 'off',
     'no-param-reassign': 'off',
     'no-unused-vars': [
       'error',
