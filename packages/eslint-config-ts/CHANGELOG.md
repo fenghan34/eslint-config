@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/fenghan34/configurations/compare/v1.0.1...v1.0.2) (2021-09-13)
+
+### Features
+
+- **eslint-config-ts:** turn off no-this-alias ([11aabbc](https://github.com/fenghan34/configurations/commit/11aabbc0b9bdce285821dd379284c2038ad05a10))
+
 ## [1.0.1](https://github.com/fenghan34/configurations/compare/v1.0.0...v1.0.1) (2021-09-13)
 
 ### Bug Fixes
