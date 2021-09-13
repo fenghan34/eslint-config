@@ -1,6 +1,6 @@
 {
   "name": "@fenghan/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Prettier configuration for better.",
   "keywords": [
     "prettier",
