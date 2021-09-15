@@ -3,12 +3,13 @@
  *
  * @see https://stylelint.io/
  * @see https://github.com/stylelint/stylelint-config-standard
+ * @see https://github.com/prettier/stylelint-config-prettier
  * @see https://github.com/kristerkari/stylelint-scss
  * @see https://github.com/hudochenkov/stylelint-order
  * @see https://github.com/constverum/stylelint-config-rational-order
  */
 module.exports = {
-  extends: ['stylelint-config-standard'],
+  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
   plugins: [
     'stylelint-scss',
     'stylelint-order',
