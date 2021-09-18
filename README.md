@@ -1,10 +1,10 @@
 # <em><b>Configurations</b></em>
 
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/fenghan34/configurations/CI) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-Monorepo for all the tool configuration which helps me code better.
+Monorepo for my sharable configurations.
 
-## What's inside?
+## Packages included in this repo
 
 | Package                                                                                                            | Description                                                             |
 | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
