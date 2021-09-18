@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint packages --fix",
     "format": "prettier --write . --ignore-unknown",
-    "test": "eslint --ext .js,.jsx,.ts,.tsx,.vue tests & stylelint tests/*.{css,scss,sass}",
+    "test": "eslint tests/*{.js,.jsx,.ts,.tsx,.vue} & stylelint tests/*.{css,scss,sass} & prettier -w tests",
     "prepare": "husky install"
   },
   "commitlint": {
@@ -32,7 +32,7 @@
     "husky": "^7.0.1",
     "lerna": "^4.0.0",
     "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.1",
     "sort-package-json": "^1.50.0",
     "stylelint": "^13.13.1",
     "typescript": "^4.3.5"
