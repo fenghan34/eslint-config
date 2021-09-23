@@ -1,6 +1,6 @@
 # <em><b>Configurations</b></em>
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/fenghan34/configurations/CI) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/fenghan34/configurations/CI) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) [![GitHub license](https://img.shields.io/github/license/fenghan34/configurations)](https://github.com/fenghan34/configurations/blob/main/LICENSE)
 
 Monorepo for my sharable configurations.
 
