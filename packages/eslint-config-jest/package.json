@@ -1,0 +1,23 @@
+{
+  "name": "@fh/eslint-config-jest",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Feng Han <hi@fenghan.link>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": "^8.11.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-testing-library": "^5.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
