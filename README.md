@@ -1,6 +1,6 @@
 # <em><b>ESLint Config</b></em>
 
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) [![GitHub license](https://img.shields.io/github/license/fenghan34/configurations)](https://github.com/fenghan34/configurations/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/fenghan34/eslint-config)](https://github.com/fenghan34/eslint-config/blob/main/LICENSE) [![npm version](https://badge.fury.io/js/@fenghan%2Feslint-config.svg)](https://badge.fury.io/js/@fenghan%2Feslint-config)
 
 Monorepo for my sharable ESLint config.
 
