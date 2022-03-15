@@ -2,7 +2,6 @@ module.exports = {
   extends: ['@fh/eslint-config-base',
     'plugin:@typescript-eslint/recommended',
   ],
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
   overrides: require('@fh/eslint-config-base').overrides,
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
@@ -15,6 +14,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-namespace': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
 
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/ban-ts-comment': [
