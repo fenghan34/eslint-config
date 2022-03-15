@@ -1,3 +1,17 @@
+const fs = require('fs')
+const path = require('path')
+
+let hasPrettier = false
+
+try {
+  const { dependencies, devDependencies, peerDependencies } = JSON.parse(fs.readFileSync(path.join(process.cwd() || '.', 'package.json')))
+
+  hasPrettier = Object.keys({ ...dependencies, ...devDependencies, ...peerDependencies }).includes('prettier')
+}
+catch (e) {
+  console.error(e)
+}
+
 module.exports = {
   extends: [
     'standard',
@@ -5,7 +19,8 @@ module.exports = {
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:markdown/recommended',
     'plugin:yml/standard',
-  ],
+    hasPrettier && 'plugin:prettier/recommended',
+  ].filter(Boolean),
   plugins: ['html', 'unicorn'],
   env: {
     node: true,
