@@ -10,10 +10,6 @@ This package is distributed via [npm](https://www.npmjs.com/package/@fenghan/esl
 
 ```bash
 $ npm install -D @fenghan/eslint-config eslint
-
-$ yarn add -D @fenghan/eslint-config eslint
-
-$ pnpm add -D @fenghan/eslint-config eslint
 ```
 
 ## Usage
