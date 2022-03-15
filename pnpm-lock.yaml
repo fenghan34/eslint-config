@@ -5,25 +5,25 @@ importers:
   .:
     specifiers:
       '@changesets/cli': ^2.21.1
-      '@fh/eslint-config': workspace:^0.1.0
+      '@fenghan/eslint-config': workspace:^0.1.0
       eslint: ^8.11.0
       typescript: ^4.6.2
     devDependencies:
       '@changesets/cli': 2.21.1
-      '@fh/eslint-config': link:packages/eslint-config
+      '@fenghan/eslint-config': link:packages/eslint-config
       eslint: 8.11.0
       typescript: 4.6.2
 
   packages/eslint-config:
     specifiers:
-      '@fh/eslint-config-jest': workspace:^0.1.0
-      '@fh/eslint-config-react': workspace:^0.1.0
-      '@fh/eslint-config-vue': workspace:^0.1.0
+      '@fenghan/eslint-config-jest': workspace:^0.1.0
+      '@fenghan/eslint-config-react': workspace:^0.1.0
+      '@fenghan/eslint-config-vue': workspace:^0.1.0
       eslint: ^8.11.0
     dependencies:
-      '@fh/eslint-config-jest': link:../eslint-config-jest
-      '@fh/eslint-config-react': link:../eslint-config-react
-      '@fh/eslint-config-vue': link:../eslint-config-vue
+      '@fenghan/eslint-config-jest': link:../eslint-config-jest
+      '@fenghan/eslint-config-react': link:../eslint-config-react
+      '@fenghan/eslint-config-vue': link:../eslint-config-vue
     devDependencies:
       eslint: 8.11.0
 
@@ -73,23 +73,23 @@ importers:
 
   packages/eslint-config-react:
     specifiers:
-      '@fh/eslint-config-ts': workspace:^0.1.0
+      '@fenghan/eslint-config-ts': workspace:^0.1.0
       eslint-plugin-react: ^7.29.4
       eslint-plugin-react-hooks: ^4.3.0
     dependencies:
-      '@fh/eslint-config-ts': link:../eslint-config-ts
+      '@fenghan/eslint-config-ts': link:../eslint-config-ts
       eslint-plugin-react: 7.29.4_eslint@8.11.0
       eslint-plugin-react-hooks: 4.3.0_eslint@8.11.0
 
   packages/eslint-config-ts:
     specifiers:
-      '@fh/eslint-config-base': workspace:^0.1.0
+      '@fenghan/eslint-config-base': workspace:^0.1.0
       '@typescript-eslint/eslint-plugin': ^5.14.0
       '@typescript-eslint/parser': ^5.14.0
       eslint: ^8.11.0
       typescript: ^4.6.2
     dependencies:
-      '@fh/eslint-config-base': link:../eslint-config-base
+      '@fenghan/eslint-config-base': link:../eslint-config-base
       '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
       '@typescript-eslint/parser': 5.14.0_eslint@8.11.0+typescript@4.6.2
     devDependencies:
@@ -98,11 +98,11 @@ importers:
 
   packages/eslint-config-vue:
     specifiers:
-      '@fh/eslint-config-ts': workspace:^0.1.0
+      '@fenghan/eslint-config-ts': workspace:^0.1.0
       eslint: ^8.11.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
-      '@fh/eslint-config-ts': link:../eslint-config-ts
+      '@fenghan/eslint-config-ts': link:../eslint-config-ts
       eslint-plugin-vue: 8.5.0_eslint@8.11.0
     devDependencies:
       eslint: 8.11.0

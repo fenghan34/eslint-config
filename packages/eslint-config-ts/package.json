@@ -1,5 +1,5 @@
 {
-  "name": "@fh/eslint-config-ts",
+  "name": "@fenghan/eslint-config-ts",
   "version": "0.1.0",
   "license": "MIT",
   "author": "Feng Han <hi@fenghan.link>",
@@ -15,7 +15,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@fh/eslint-config-base": "workspace:^0.1.0",
+    "@fenghan/eslint-config-base": "workspace:^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0"
   },

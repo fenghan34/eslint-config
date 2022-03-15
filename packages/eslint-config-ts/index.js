@@ -1,8 +1,8 @@
 module.exports = {
-  extends: ['@fh/eslint-config-base',
+  extends: ['@fenghan/eslint-config-base',
     'plugin:@typescript-eslint/recommended',
   ],
-  overrides: require('@fh/eslint-config-base').overrides,
+  overrides: require('@fenghan/eslint-config-base').overrides,
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',

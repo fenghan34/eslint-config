@@ -1,5 +1,5 @@
 {
-  "name": "@fh/eslint-config-jest",
+  "name": "@fenghan/eslint-config-jest",
   "version": "0.1.0",
   "license": "MIT",
   "author": "Feng Han <hi@fenghan.link>",

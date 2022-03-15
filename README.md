@@ -9,11 +9,11 @@ Monorepo for my sharable ESLint config.
 This package is distributed via [npm](https://www.npmjs.com/package/@fenghan/eslint-config). It requires [ESLint](https://github.com/eslint/eslint).
 
 ```bash
-$ npm install -D @fh/eslint-config eslint
+$ npm install -D @fenghan/eslint-config eslint
 
-$ yarn add -D @fh/eslint-config eslint
+$ yarn add -D @fenghan/eslint-config eslint
 
-$ pnpm add -D @fh/eslint-config eslint
+$ pnpm add -D @fenghan/eslint-config eslint
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Add the extends to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: '@fh',
+  extends: '@fenghan',
   rules: {
     // your overrides
   },
