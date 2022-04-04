@@ -1,6 +1,6 @@
 {
   "name": "@fenghan/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "Feng Han <hi@fenghan.link>",
   "main": "index.js",
@@ -11,9 +11,9 @@
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@fenghan/eslint-config-jest": "workspace:^0.1.1",
-    "@fenghan/eslint-config-react": "workspace:^0.1.1",
-    "@fenghan/eslint-config-vue": "workspace:^0.1.1"
+    "@fenghan/eslint-config-jest": "workspace:^0.1.2",
+    "@fenghan/eslint-config-react": "workspace:^0.1.2",
+    "@fenghan/eslint-config-vue": "workspace:^0.1.2"
   },
   "publishConfig": {
     "access": "public"
