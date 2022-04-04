@@ -1,6 +1,6 @@
 {
   "name": "@fenghan/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "author": "Feng Han <hi@fenghan.link>",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@fenghan/eslint-config-ts": "workspace:^0.1.0",
+    "@fenghan/eslint-config-ts": "workspace:^0.1.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.3.0"
   },
