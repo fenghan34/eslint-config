@@ -1,11 +1,25 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@1.7.0/schema.json",
-  "changelog": "@changesets/cli/changelog",
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "fenghan34/eslint-config"
+    }
+  ],
   "commit": false,
-  "fixed": [],
+  "fixed": [
+    [
+      "@fenghan/eslint-config",
+      "@fenghan/eslint-config-base",
+      "@fenghan/eslint-config-ts",
+      "@fenghan/eslint-config-react",
+      "@fenghan/eslint-config-vue",
+      "@fenghan/eslint-config-jest"
+    ]
+  ],
   "linked": [],
-  "access": "restricted",
-  "baseBranch": "master",
+  "access": "public",
+  "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": []
 }
