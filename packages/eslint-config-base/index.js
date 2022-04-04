@@ -166,7 +166,7 @@ module.exports = {
     ],
     'object-curly-spacing': ['error', 'always'],
     'no-return-await': 'off',
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', 'always'],
 
     'no-var': 'error',
     'prefer-const': [
