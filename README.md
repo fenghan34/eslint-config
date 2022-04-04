@@ -1,44 +1,24 @@
 # <em><b>ESLint Config</b></em>
 
-[![GitHub license](https://img.shields.io/github/license/fenghan34/eslint-config)](https://github.com/fenghan34/eslint-config/blob/main/LICENSE) [![npm version](https://badge.fury.io/js/@fenghan%2Feslint-config.svg)](https://badge.fury.io/js/@fenghan%2Feslint-config)
+[![GitHub license](https://img.shields.io/github/license/fenghan34/eslint-config)](https://github.com/fenghan34/eslint-config/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/@fenghan/eslint-config)](https://www.npmjs.com/package/@fenghan/eslint-config)
 
 Monorepo for my sharable ESLint config.
 
-## Installation
+## Usage
 
-This package is distributed via [npm](https://www.npmjs.com/package/@fenghan/eslint-config). It requires [ESLint](https://github.com/eslint/eslint).
+Install package.
 
 ```bash
 $ npm install -D @fenghan/eslint-config eslint
 ```
-
-## Usage
 
 Add the extends to your `.eslintrc.js`:
 
 ```js
 module.exports = {
   extends: '@fenghan',
-  rules: {
-    // your overrides
-  },
 }
 ```
-
-## Eliminate Prettier Conflicts
-
-This package built-ins the [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) for you, all you need to do is setup the [Prettier CLI](https://prettier.io/docs/en/cli.html) to use it.
-
-```json
-// package.json
-
-{
-  "scripts": {
-    "format": "prettier --write ."
-  }
-}
-```
-
 ## What's Inside
 
 This configuration contains flowing packages.
