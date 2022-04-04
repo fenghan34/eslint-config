@@ -1,6 +1,6 @@
 {
   "name": "@fenghan/eslint-config-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "author": "Feng Han <hi@fenghan.link>",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@fenghan/eslint-config-ts": "workspace:^0.1.0",
+    "@fenghan/eslint-config-ts": "workspace:^0.1.1",
     "eslint-plugin-vue": "^8.5.0"
   },
   "devDependencies": {
