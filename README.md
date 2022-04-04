@@ -19,6 +19,7 @@ module.exports = {
   extends: '@fenghan',
 }
 ```
+
 ## What's Inside
 
 This configuration contains flowing packages.

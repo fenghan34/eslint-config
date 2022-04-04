@@ -1,5 +1,6 @@
 module.exports = {
-  extends: ['@fenghan/eslint-config-base',
+  extends: [
+    '@fenghan/eslint-config-base',
     'plugin:@typescript-eslint/recommended',
   ],
   overrides: require('@fenghan/eslint-config-base').overrides,
@@ -21,7 +22,8 @@ module.exports = {
       'error',
       { 'ts-ignore': 'allow-with-description' },
     ],
-    '@typescript-eslint/consistent-type-imports': ['error',
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
       {
         prefer: 'type-imports',
         disallowTypeAnnotations: false,
@@ -44,7 +46,7 @@ module.exports = {
     'brace-style': 'off',
     '@typescript-eslint/brace-style': [
       'error',
-      'stroustrup',
+      '1tbs',
       { allowSingleLine: true },
     ],
     'no-useless-constructor': 'off',
@@ -87,12 +89,14 @@ module.exports = {
     ],
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': [
-      'error', {
+      'error',
+      {
         allow: [
           'private-constructors',
           'protected-constructors',
           'decoratedFunctions',
         ],
-      }],
+      },
+    ],
   },
 }

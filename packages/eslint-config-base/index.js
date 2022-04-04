@@ -4,11 +4,16 @@ const path = require('path')
 let hasPrettier = false
 
 try {
-  const { dependencies, devDependencies, peerDependencies } = JSON.parse(fs.readFileSync(path.join(process.cwd() || '.', 'package.json')))
+  const { dependencies, devDependencies, peerDependencies } = JSON.parse(
+    fs.readFileSync(path.join(process.cwd() || '.', 'package.json')),
+  )
 
-  hasPrettier = Object.keys({ ...dependencies, ...devDependencies, ...peerDependencies }).includes('prettier')
-}
-catch (e) {
+  hasPrettier = Object.keys({
+    ...dependencies,
+    ...devDependencies,
+    ...peerDependencies,
+  }).includes('prettier')
+} catch (e) {
   console.error(e)
 }
 
@@ -141,7 +146,7 @@ module.exports = {
     'no-unused-vars': 'warn',
     'no-param-reassign': 'off',
     'array-bracket-spacing': ['error', 'never'],
-    'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'block-spacing': ['error', 'always'],
     'camelcase': 'off',
     'comma-spacing': ['error', { before: false, after: true }],
@@ -166,7 +171,14 @@ module.exports = {
     ],
     'object-curly-spacing': ['error', 'always'],
     'no-return-await': 'off',
-    'space-before-function-paren': ['error', 'always'],
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'always',
+        named: 'never',
+        asyncArrow: 'always',
+      },
+    ],
 
     'no-var': 'error',
     'prefer-const': [
